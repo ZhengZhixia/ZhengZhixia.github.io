@@ -1,0 +1,505 @@
+@charset "UTF-8";
+/**/
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+  float: left;
+}
+
+.header-top {
+  width: 100%;
+  height: 20px;
+  background: #10A7AF;
+  padding: 20px 0;
+}
+
+.header-top ul {
+  display: block;
+  width: 84%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.header-top ul li {
+  margin-right: 50px;
+}
+
+.header-top ul li a {
+  color: #fff;
+}
+
+/*banner部分开始*/
+.banner-box {
+  position: relative;
+  width: 100%;
+  padding: 30px 0;
+  background: url(../images/pic2.jpg) no-repeat center;
+  background-size: cover;
+  border-bottom: 5px solid #E4E4E4;
+}
+
+.banner-box .banner-container {
+  width: 84%;
+  /*background:yellow;*/
+  margin: auto;
+  overflow: hidden;
+}
+
+.banner-container-right {
+  width: 300px;
+  height: 210px;
+  /*background:blue;*/
+  float: left;
+}
+
+.banner-container-left {
+  min-width: 240px;
+  /*background:red;*/
+  float: left;
+}
+
+.banner-container-left.play {
+  margin-bottom: 20px;
+}
+
+.xianpian {
+  width: 40%;
+  min-width: 90px;
+  max-width: 170px;
+  height: 20px;
+  background: url("../images/pic1.jpg") center center;
+  background-size: cover;
+  border: 2px solid #10a7af;
+  float: left;
+}
+
+.jieshao1 {
+  color: #fff;
+  margin-left: 20px;
+  /*background:#ccc;*/
+  float: left;
+}
+
+.jieshao1 h1 {
+  color: #10a7af;
+}
+
+.banner-container-right {
+  color: #fff;
+}
+
+.banner-container-right .list-left {
+  float: left;
+  width: 27%;
+}
+
+.banner-container-right .list-left li {
+  font-weight: 700;
+  color: #10a7af;
+  font-size: 14px;
+  line-height: 3em;
+  list-style-type: none;
+}
+
+.banner-container-right .list-right {
+  float: left;
+  width: 73%;
+}
+
+.banner-container-right .list-right li {
+  font-size: 14px;
+  line-height: 3em;
+  list-style-type: none;
+}
+
+/*banner部分结束*/
+/*about部分开始*/
+.about-box, .experience-box, .work-box, .skill-box, .contact-box {
+  width: 100%;
+  border-bottom: 5px solid #E4E4E4;
+  padding: 80px 0 50px 0;
+}
+
+h3.box {
+  width: 75%;
+  margin: auto;
+  font-size: 40px;
+  padding: 0;
+  text-align: center;
+  color: #10A7AF;
+}
+
+p.box {
+  padding: 50px 0;
+  display: block;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  .about-box, .experience-box, .work-box, .skill-box, .contact-box {
+    padding: 60px 0 30px 0;
+  }
+  h3.box {
+    width: 85%;
+    font-size: 40px;
+  }
+  p.box {
+    padding: 30px 0;
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-box, .experience-box, .work-box, .skill-box, .contact-box {
+    padding: 40px 0 20px 0;
+  }
+  h3.box {
+    width: 90%;
+    font-size: 20px;
+  }
+  p.box {
+    padding: 20px 0;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about-box, .experience-box, .work-box, .skill-box, .contact-box {
+    padding: 20px 0 20px 0;
+  }
+  h3.box {
+    width: 95%;
+    font-size: 20px;
+  }
+  p.box {
+    padding: 20px 0;
+    width: 95%;
+  }
+}
+
+/*about部分结束*/
+/*experience部分开始*/
+.experience-box .experience {
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.experience-box .experience .a1, .experience-box .experience .a2, .experience-box .experience .a3, .experience-box .experience .a4, .experience-box .experience .a5, .experience-box .experience .a6 {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.a1, .a2, .a5, .a6 {
+  padding: 53px 35px 0 0;
+}
+
+.a3, .a4 {
+  padding: 53px 0 0 16px;
+}
+
+.a1, .a3, .a5 {
+  text-align: right;
+}
+
+.a1 p, .a3 p, .a5 p {
+  margin-right: 20px;
+}
+
+.a2, .a6 {
+  border-left: 1px solid #aaa;
+}
+
+.a2 p, .a6 p {
+  margin-left: 20px;
+}
+
+.a3 {
+  border-right: 1px solid #aaa;
+}
+
+.a1, .a4, .a5 {
+  font-size: 86px;
+  color: #000;
+  font-style: italic;
+  height: 100%;
+}
+
+h5 {
+  font-size: 22px;
+  color: #10A7AF;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.experience-line {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #aaa;
+}
+
+@media screen and (max-width: 992px) {
+  .experience-box .experience .a1, .experience-box .experience .a4, .experience-box .experience .a5 {
+    width: 40%;
+    font-size: 66px;
+  }
+  .experience-box .experience .a2, .experience-box .experience .a3, .experience-box .experience .a6 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience-box .experience .a1, .experience-box .experience .a4, .experience-box .experience .a5 {
+    width: 30%;
+    font-size: 56px;
+  }
+  .experience-box .experience .a2, .experience-box .experience .a3, .experience-box .experience .a6 {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .experience-box .experience .a1, .experience-box .experience .a4, .experience-box .experience .a5 {
+    width: 20%;
+    font-size: 36px;
+  }
+  .experience-box .experience .a2, .experience-box .experience .a3, .experience-box .experience .a6 {
+    width: 80%;
+  }
+}
+
+/*experience部分结束*/
+/*work部分开始*/
+.work-box .work-bag {
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.work-box .work {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  background: center center;
+  background-clip: content-box;
+  background-size: cover;
+  background-image: url("../images/poker.png");
+}
+
+.work-box .work a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.work-box .w2 {
+  background-image: url("../images/snake.png");
+}
+
+.work-box .w3 {
+  background-image: url("../images/xiangce.png");
+}
+
+.work-box .w4 {
+  background-image: url("../images/music.png");
+}
+
+.work-box .w5 {
+  background-image: url("../images/yingtai.png");
+}
+
+.work-box .w6 {
+  background-image: url("../images/tianmao.png");
+}
+
+.work-box .w7 {
+  background-image: url("../images/watch.png");
+}
+
+.work-box .w8 {
+  background-image: url("../images/wuziqi.png");
+}
+
+.work-box .w9 {
+  background-image: url("../images/tongxunluhoutai.png");
+}
+
+.work-box .w10 {
+  background-image: url("../images/iclod.png");
+}
+
+@media screen and (max-width: 992px) {
+  .work-box .work-bag {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work-box .work-bag {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .work-box .work-bag {
+    width: 95%;
+  }
+  .work-box .work {
+    width: 50%;
+  }
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: relative;
+}
+
+.shadow.play {
+  display: block;
+}
+
+.shadow .shadow-top {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  height: 0;
+  border-top: 3px solid #10a7af;
+  transition: width .8s ease;
+  width: 0;
+}
+
+.shadow .shadow-top.play {
+  width: 90%;
+}
+
+.shadow .shadow-left {
+  position: absolute;
+  height: 0;
+  left: 10%;
+  top: 10%;
+  width: 0;
+  border-left: 3px solid #10a7af;
+  transition: height .8s ease;
+}
+
+.shadow .shadow-left.play {
+  height: 90%;
+}
+
+.shadow .shadow-right {
+  position: absolute;
+  height: 0;
+  right: 10%;
+  bottom: 10%;
+  width: 0;
+  border-right: 3px solid #10a7af;
+  transition: height .8s ease;
+}
+
+.shadow .shadow-right.play {
+  height: 90%;
+}
+
+.shadow .shadow-bottom {
+  position: absolute;
+  height: 0;
+  right: 10%;
+  bottom: 10%;
+  width: 0;
+  border-bottom: 3px solid #10a7af;
+  transition: width .8s ease;
+}
+
+.shadow .shadow-bottom.play {
+  transition: width .8s ease;
+  width: 90%;
+}
+
+/*work部分结束*/
+/*skill部分开始*/
+.skill-box .skill {
+  position: relative;
+  width: 50%;
+  height: 35px;
+  line-height: 35px;
+  box-sizing: border-box;
+  background: #ccc;
+  padding: 0 2%;
+  margin-top: 20px;
+  float: left;
+  background-clip: content-box;
+  border-radius: 10px;
+}
+
+.skill-bag, .contact-bag {
+  margin: auto;
+  width: 75%;
+  /*background:yellow;*/
+  overflow: hidden;
+}
+
+.skill-left {
+  background: #1AAFD0;
+  float: left;
+  height: 100%;
+  line-height: inherit;
+}
+
+.name {
+  position: absolute;
+  width: 25%;
+  background: #189AB7;
+  height: 100%;
+  text-align: center;
+}
+
+.skill-right {
+  float: right;
+  height: 100%;
+  line-height: inherit;
+}
+
+/*skill部分结束*/
+.contact-box {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.contact-bag {
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.contact-bag div {
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
